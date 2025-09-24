@@ -47,7 +47,7 @@ class HopePipeline:
                     User said: {enriched_input}
 
                     Please respond with:
-                    - Start the first message of each session with a warm greeting (e.g.: "Hi, I’m here to help. Would you like to start now or later? or You’re not alone. Want nearby options for food, shelter, or to talk to a person?").
+                    - Start the first message of each session with a warm greeting (e.g.: "Hi, I’m here to help. Would you like to start now or later?").
                     - After the first message, continue the conversation without greetings.
                     - Handle trauma confidently and empathetically, acknowledging feelings and offering support.
                     - Provide short, emotionally supportive messages based on the user's needs (e.g., hunger, shelter, hygiene).
