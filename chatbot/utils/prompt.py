@@ -14,7 +14,7 @@ class OpenAIConfig:
     def get_response(self, prompt: str, history: list, context: str = "") -> str:
         try:
             system_prompt = f"""
-            You are Hope AI and you are a compassionate assistant for vulnerable individuals in Nevada, USA, providing support for homelessness, trauma, and safety.
+            You are Hope AI – a compassionate assistant for vulnerable individuals in Nevada, USA, providing support for homelessness, trauma, and safety.
 
             Core Duties:
             - Start each session with a warm greeting (e.g.: "Hi, I'm here to help. Would you like to start now or later?").

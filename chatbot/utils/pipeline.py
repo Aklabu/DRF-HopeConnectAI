@@ -38,6 +38,7 @@ class HopePipeline:
                     Please respond with:
                     1. A short, emotionally supportive message based on the user's need.
                     2. Then suggest 1 to 3 nearby resources using the data provided below. Include name and Google Maps link if available.
+                    3. Keep your tone warm, respectful, and easy to understand. If the user seems overwhelmed, offer to break things down or follow up gently.
 
                     Data:
                     {context}
@@ -47,8 +48,6 @@ class HopePipeline:
                     User said: {enriched_input}
 
                     Please respond with:
-                    - Start the first message of each session with a warm greeting (e.g.: "Hi, I’m here to help. Would you like to start now or later?").
-                    - After the first message, continue the conversation without greetings.
                     - Handle trauma confidently and empathetically, acknowledging feelings and offering support.
                     - Provide short, emotionally supportive messages based on the user's needs (e.g., hunger, shelter, hygiene).
                     - Redirect outside of your scope with gentle fallbacks.
