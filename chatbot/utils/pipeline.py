@@ -47,7 +47,7 @@ class HopePipeline:
             return f"""
                     User said: {enriched_input}
 
-                    Please respond with:
+                    Please respond with:    
                     - Handle trauma confidently and empathetically, acknowledging feelings and offering support.
                     - Provide short, emotionally supportive messages based on the user's needs (e.g., hunger, shelter, hygiene).
                     - Redirect outside of your scope with gentle fallbacks.
