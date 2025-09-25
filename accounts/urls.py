@@ -12,6 +12,7 @@ from .views import (
     RegisterFirebaseTokenView,
     TestNotificationView
 )
+from .views_social import GoogleSignupView, AppleSignupView
 
 
 urlpatterns = [
@@ -28,4 +29,8 @@ urlpatterns = [
     # Firebase token management
     path('firebase-token/', RegisterFirebaseTokenView.as_view(), name='register-firebase-token'),
     path('test-notification/', TestNotificationView.as_view(), name='test-notification'),
+
+    # Social authentication
+    path("google-signup/", GoogleSignupView.as_view(), name="google-signup"),
+    path("apple-signup/", AppleSignupView.as_view(), name="apple-signup"),
 ]
