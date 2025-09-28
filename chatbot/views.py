@@ -45,7 +45,7 @@ class ChatView(APIView):
                 if user and user.is_authenticated:
                     session = ChatSession.objects.get(id=session_id, user=user)
                 else:
-                    session = ChatSession.objects.get(id=session_id, session_key=session_key)
+                    session = ChatSession.objects.get(id=session_id)
                 return session
             except ChatSession.DoesNotExist:
                 pass
